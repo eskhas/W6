@@ -1,7 +1,7 @@
 // This simple program shows call-by value type function
 #include<stdio.h>
 
-const pi = 3.14;
+const double pi = 3.14;
 double surf(double);
 void print(double);
 
@@ -15,9 +15,10 @@ int main(){
     // Calculate the surface by means of function call
     double s = surf(r); // This is the function call (call-by-value)
     print(s);
+    return 0;
 
 }
-
+// 
 double surf(double a){
 
     double srf = pi * a* a;
