@@ -14,6 +14,7 @@ int main(){
 
     // Calculate the surface by means of function call
     double s = surf(r); // This is the function call (call-by-value)
+    print(s);
 
 }
 
